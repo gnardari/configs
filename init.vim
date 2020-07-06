@@ -28,7 +28,7 @@ call plug#end()
 
 call glaive#Install()
 set nocompatible
-set clipboard=unnamedplus
+set clipboard+=unnamedplus
 filetype off
 " Theme
 "colorscheme seti

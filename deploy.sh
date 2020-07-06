@@ -1,4 +1,13 @@
 #!/bin/bash
+sudo apt install \
+python3-pip \
+tmux \
+iputils-ping \
+nmap \
+wget \
+git
+
+
 FILES=(
 bashrc
 bash_aliases
@@ -11,4 +20,7 @@ do
   ln -sf $(pwd)/$file ~/.$file
 done
 
-ln -sf init.vim $HOME/.config/nvim/init.vim
+ln -sf $(pwd)/init.vim $HOME/.config/nvim/init.vim
+
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
