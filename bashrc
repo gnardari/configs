@@ -107,8 +107,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
-if [ -f ~/.local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh ]; then
-    source ~/.local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh
+if [ -f ~/.local/lib/python3.8/site-packages/powerline/bindings/bash/powerline.sh ]; then
+    source ~/.local/lib/python3.8/site-packages/powerline/bindings/bash/powerline.sh
 fi
 
 export PATH="/usr/local/cuda-10.0/bin:/usr/local/cuda-10.0/NsightCompute-1.0${PATH:+:${PATH}}"
@@ -141,5 +141,4 @@ function up () {
 	fi
 }
 
-source /opt/ros/melodic/setup.bash
 source /home/gnardari/thirdparty/z/z.sh

@@ -1,9 +1,7 @@
 call plug#begin('~/.vim/plugged')
 Plug 'tomtom/tcomment_vim'
-Plug 'Valloric/YouCompleteMe'
 Plug 'majutsushi/tagbar'
 Plug 'vim-airline/vim-airline'
-Plug 'ervandew/supertab'
 Plug 'tpope/vim-git'
 Plug 'neomake/neomake'
 Plug 'tpope/vim-classpath'

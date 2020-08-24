@@ -7,8 +7,11 @@ tmux \
 iputils-ping \
 nmap \
 wget \
-git
-
+git \
+guake \
+powerline \
+fonts-powerline \
+silversearcher-ag
 
 FILES=(
 bashrc
@@ -27,3 +30,6 @@ ln -sf $(pwd)/init.vim $HOME/.config/nvim/init.vim
 
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+mkdir $HOME/thirdparty
+git clone https://github.com/rupa/z.git $HOME/thirdparty/z
