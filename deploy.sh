@@ -1,5 +1,6 @@
 #!/bin/bash
 sudo apt install \
+curl \
 python3-pip \
 tmux \
 iputils-ping \
