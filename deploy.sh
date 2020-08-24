@@ -22,6 +22,7 @@ do
   ln -sf $(pwd)/$file ~/.$file
 done
 
+mkdir -p $HOME/.config/nvim
 ln -sf $(pwd)/init.vim $HOME/.config/nvim/init.vim
 
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
