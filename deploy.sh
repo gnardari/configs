@@ -1,6 +1,7 @@
 #!/bin/bash
 sudo apt install \
 curl \
+neovim \
 python3-pip \
 tmux \
 iputils-ping \
