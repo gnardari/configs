@@ -8,6 +8,7 @@ iputils-ping \
 nmap \
 wget \
 git \
+htop \
 guake \
 powerline \
 fonts-powerline \
