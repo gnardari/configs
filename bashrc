@@ -141,4 +141,4 @@ function up () {
 	fi
 }
 
-source /home/gnardari/thirdparty/z/z.sh
+source /home/$USER/thirdparty/z/z.sh
